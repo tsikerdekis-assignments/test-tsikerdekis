@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "test",
-      "setup": "sudo apt install mysql-server;sudo systemctl start mysql-server;unzip -p tests/empsmall.zip | mysql -uroot",
+      "setup": "sudo systemctl start mysqld;unzip -p tests/empsmall.zip | mysql -uroot;",
       "run": "bash tests/tests-correctness.sh",
       "input": "",
       "output": "  > Elvis\tDemeyer\r\n  > Elvis\tTerkki\r\n  > Elvis\tOtillio\r\n  > Elvis\tDemri\r\n  > Elvis\tServieres\r\n  > Elvis\tStasinski\r\n  > Elvis\tArmand\r\n  > Elvis\tTempleman\r\n  > Elvis\tEdelhoff",
