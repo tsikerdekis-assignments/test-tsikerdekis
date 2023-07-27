@@ -9,6 +9,16 @@
       "comparison": "included",
       "timeout": 10,
       "points": 1
+    },
+    {
+      "name": "test",
+      "setup": "",
+      "run": "test",
+      "input": "1",
+      "output": "1",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
     }
   ]
 }
