@@ -5,7 +5,7 @@
       "setup": "sudo apt install tcpdump; sudo apt install suricata",
       "run": "echo 1",
       "input": "",
-      "output": "1",
+      "output": "2",
       "comparison": "included",
       "timeout": 10,
       "points": 1
